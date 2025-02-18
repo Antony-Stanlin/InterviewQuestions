@@ -12,10 +12,10 @@ public class Pattern {
             for(int j=0;j<n;j++){
                 rowNum-=(j);
                 if(j>=n-i){
-                    System.out.print(""+rowNum);
+                    System.out.print(""+rowNum+" ");
                 }
                 else
-                    System.out.print("*");
+                    System.out.print("* ");
             }
             System.out.println();
         }
